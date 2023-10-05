@@ -1,4 +1,8 @@
 /* Apply styles to the list */
+:root {
+  background: rgb(135, 206, 235);
+}
+
 .custom-list {
     list-style: none;
     padding: 0;
