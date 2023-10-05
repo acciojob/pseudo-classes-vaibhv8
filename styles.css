@@ -40,6 +40,16 @@
 }
 
 /* Third-to-last list item */
+.custom-list li:nth-child(3) { /* Change to nth-child(3) to target the third-to-last item */
+    background-color: pink;
+}
+
+.custom-list li:first-child,
+.custom-list li:last-child {
+    font-size: 22px;
+}
+
+/* Third-to-last list item */
 .custom-list li:nth-last-child(3) {
     background-color: pink;
 }
