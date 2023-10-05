@@ -16,7 +16,7 @@
 
 /* Apply styles to the list */
 .custom-list {
-    list-style: none;
+/*     list-style: none; */
     padding: 0;
 }
 
@@ -30,7 +30,7 @@
 
 /* Odd-numbered list items */
 .custom-list li:nth-child(odd) {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 /* First and last list items */
