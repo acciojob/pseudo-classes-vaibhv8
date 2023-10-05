@@ -1,24 +1,6 @@
-/*  your css code here. If applicable */
-:root {
-  background-color: rgb(135, 206, 235);
-}
-.class1:first-child {
-    background-color: black;
-	color:white;
-}
-
-.class2:nth-child(2) {
-/*     background-color: black; */
-	 color: black;
-}
-
-.class3:last-child {
-    color:red;
-}
-
 /* Apply styles to the list */
 .custom-list {
-/*     list-style: none; */
+    list-style: none;
     padding: 0;
 }
 
@@ -42,18 +24,23 @@
 }
 
 /* Third-to-last list item */
-.custom-list li:nth-child(3) { /* Change to nth-child(3) to target the third-to-last item */
+.custom-list li:nth-child(3) {
     background-color: pink;
 }
 
-.custom-list li:first-child,
-.custom-list li:last-child {
-    font-size: 22px;
+/* Reset styles for paragraphs */
+p {
+    background-color: initial;
+    color: initial;
 }
 
-/* Third-to-last list item */
-.custom-list li:nth-last-child(3) {
-    background-color: pink;
+/* First paragraph */
+.class1 {
+    background-color: black;
+    color: white;
 }
 
-
+/* Last paragraph */
+.class3 {
+    color: red;
+}
