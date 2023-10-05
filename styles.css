@@ -4,6 +4,7 @@
 }
 .class1:first-child {
     background-color: black;
+	color:white;
 }
 
 .class2:nth-child(2) {
